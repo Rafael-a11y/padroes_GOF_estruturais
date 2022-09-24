@@ -1,0 +1,11 @@
+import java.io.FileNotFoundException;
+import java.io.PrintStream;
+
+public class GeradorDeArquivoTXT implements GeradorDeArquivo 
+{ 
+	@Override
+	public void gerar(String conteudo) 
+	{ 
+		System.out.println(conteudo);
+	}
+}

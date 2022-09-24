@@ -1,0 +1,16 @@
+public class TesteEmissorDecorator 
+{
+	public static void main(String[] args) 
+	{
+		String mensagem = "";
+		Emissor emissorCriptografador = new EmissorDecoratorComCriptografia(new EmissorBasico()); 
+		emissorCriptografador.enviar(mensagem);
+		
+		Emissor emissorCompressor = new EmissorDecoratorComCompressao(new EmissorBasico()); 
+		emissorCompressor.enviar(mensagem);
+		
+		Emissor emissorCriptCompr = 
+				new EmissorDecoratorComCriptografia (new EmissorDecoratorComCompressao(new EmissorBasico ())); 
+		emissorCriptCompr.enviar(mensagem);
+	}
+}

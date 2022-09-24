@@ -1,0 +1,8 @@
+public class TesteRecibo 
+{
+	public static void main(String[] args)
+	{ 
+		Recibo recibo = new Recibo ("arquivo.txt", "K19 Treinamentos", "Marcelo Martins", 1000); 
+		recibo. gerarArquivo();
+	}
+}

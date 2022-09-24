@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.io.PrintStream"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="GeradorDeArquivoTXT"/>
+    <fullyQualifiedTypeName name="GeradorDeArquivo"/>
+    <fullyQualifiedTypeName name="EmissorDecorator"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="Estoque"/>
+    <fullyQualifiedTypeName name="Financeiro"/>
+    <fullyQualifiedTypeName name="PosVenda"/>
+    <fullyQualifiedTypeName name="PedidoFacade"/>
+    <fullyQualifiedTypeName name="Pedido"/>
+    <fullyQualifiedTypeName name="java.lang.Number"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,11 @@
+import java.util.Random;
+
+public class Financeiro
+{
+	public void fatura(String cliente, String produto)
+	{
+		System.out.println("FINANCEIRO\nFatura: 24015804500248");
+		System.out.println("Cliente: " + cliente);
+		System.out.println("Produto: " + produto);
+	}
+}

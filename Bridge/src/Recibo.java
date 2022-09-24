@@ -1,0 +1,32 @@
+public class Recibo implements Documento 
+{
+	private String recibo;
+	private String emissor; 
+	private String favorecido; 
+	private double valor;
+	private GeradorDeArquivo geradorDeArquivo;
+	
+	public Recibo (String recibo, String emissor, String favorecido, double valor,
+			GeradorDeArquivo geradorDeArquivo) 
+	{
+		this.recibo = recibo;
+		this.emissor = emissor; 
+		this. favorecido = favorecido; 
+		this.valor = valor;
+		this.geradorDeArquivo = geradorDeArquivo;
+	}
+	
+	@Override
+	public void gerarArquivo() 
+	{ 
+		this.geradorDeArquivo.gerar(this.toString());
+	}
+
+	@Override
+	public String toString() {
+		return "Recibo: " + this.recibo + 
+				"\nEmpresa: " + this.emissor + 
+				"\nCliente: " + this.favorecido + 
+				"\nValor: " + this.valor;
+	}
+}

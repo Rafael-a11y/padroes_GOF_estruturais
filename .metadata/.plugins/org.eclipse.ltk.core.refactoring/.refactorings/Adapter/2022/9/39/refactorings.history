@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;ControleDePontoNovoAdapter.java&apos; to &apos;ControleDePontoAdapter.java&apos;&#x0D;&#x0A;- Original project: &apos;Adapter&apos;&#x0D;&#x0A;- Original element: &apos;ControleDePontoNovoAdapter.java&apos;&#x0D;&#x0A;- Renamed element: &apos;ControleDePontoAdapter.java&apos;" description="Rename compilation unit &apos;ControleDePontoNovoAdapter.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{ControleDePontoNovoAdapter.java" name="ControleDePontoAdapter.java" references="false" stamp="1663718477138" version="1.0"/>
+</session>
